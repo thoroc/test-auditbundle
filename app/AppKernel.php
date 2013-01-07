@@ -22,6 +22,7 @@ class AppKernel extends Kernel
             new Craue\TwigExtensionsBundle\CraueTwigExtensionsBundle(),
             new Stof\DoctrineExtensionsBundle\StofDoctrineExtensionsBundle(),
             new CiscoSystems\AuditBundle\CiscoSystemsAuditBundle(),
+            new Acme\UserBundle\AcmeUserBundle(),
         );
 
         if (in_array($this->getEnvironment(), array('dev', 'test'))) {
